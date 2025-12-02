@@ -37,4 +37,9 @@ public class HomePage {
         signupLoginButton.click();
         return new SignupPage(driver);
     }
+
+    public LoginPage ClickOnSignupLoginPagelink(){
+        signupLoginButton.click();
+        return new LoginPage(driver);
+    }
 }
